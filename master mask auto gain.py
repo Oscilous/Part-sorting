@@ -52,7 +52,7 @@ class Emailer: #funktion til at sende mail over Gmail server
         session.quit
 
 
-GPIO.cleanup()
+#GPIO.cleanup()
 GPIO.setwarnings(False)
 servo_pin = 13
 vib_pin = 12
